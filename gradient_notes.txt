@@ -1,0 +1,18 @@
+Gradient Descent Algorithm
+Initialize Parameters:
+Choose an initial starting point 
+x=xstart
+Set the learning rate 
+α (controls the step size).
+Determine the number of iterations n (total steps to take).
+Iterate (for a given number of steps or until convergence):
+Compute the Gradient: Calculate the gradient of the function at the current 
+𝑥
+gradient=𝑓′(𝑥)
+Update x: Adjust x in the opposite direction of the gradient to minimize the function:
+
+x=x−α×gradient
+Store Values (Optional): Keep track of the x and 𝑦=𝑓(𝑥)values for visualization.
+Check for Convergence (Optional):
+If the change in x or y is very small, you might stop early, as it indicates that the algorithm has likely reached close to the minimum.
+End: The final x value should approximate the point of the local minimum.
